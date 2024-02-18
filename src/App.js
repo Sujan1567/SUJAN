@@ -504,6 +504,7 @@ function App() {
 
       {/* Making the conditions for submitting the form. */}
       <div className='container-fluid mt-4'>
+        <h1 className='display-6 text-center'>This is the table details.</h1>
         {/* Making the list of the incomplete list. */}
         {iscompleted === false && (
           <table className="table table-bordered">
